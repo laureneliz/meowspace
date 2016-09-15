@@ -3,45 +3,80 @@ body {
   font-family: sans-serif;
 }
 
-nav ul{
-  list-style: none;
-  display: inline-block;
-  align: right;
-
+/*begin styling for 2 nav bar lists*/
+nav {
+  float: right;
 }
 
+nav ul{
+  list-style: none;
+  text-align: right;
+}
+
+nav ul li{
+  display: inline;
+}
+
+.top-nav{
+  margin: 20px;
+}
+/*end of styling for nav bar thingies*/
+
+/*this is the blog column*/
 main {
   width: 55%;
   float: left;
   padding-right: 5%;
 }
 
-section img:first-child{
-  height: 100px
+/*first image of a blog post*/
+.post-content > img:first-child{
+  height: 200px
 }
 
 .image_gallery img{
   height: 100px
 }
 
+/*white footer*/
 footer {
   clear: both;
   background-color: white;
 }
 
-#top-cats {
-  padding-left: 20px;
-}
-
+/*meowspace heading*/
 header h1 {
   font-size: 4em;
-  padding-left: 30%;
+  padding-left: 15%;
+  margin-bottom: 5%;
 }
 
+/*visted link color*/
 a:visited{
-  color: rgb(47, 139, 186)
+  color: rgb(47, 139, 186);
+}
+
+.big-headline {
+  color: rgb(0, 44, 55);
+  font-size: 2em;
 }
 
 .headline {
-  color: rgb(105, 0, 98)
+  color: rgb(0, 44, 55);
+  font-size: 1.5em;
+}
+
+.post {
+
+}
+
+#gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*top-cats aside*/
+#top-cats {
+  padding-left: 20px;
 }
