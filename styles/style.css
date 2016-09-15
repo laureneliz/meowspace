@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(220, 247, 241);
+  font-family: sans-serif;
+}
+
+nav ul{
+  list-style: none;
+  display: inline-block;
+  align: right;
+
+}
+
+main {
+  width: 55%;
+  float: left;
+  padding-right: 5%;
+}
+
+section img:first-child{
+  height: 100px
+}
+
+.image_gallery img{
+  height: 100px
+}
+
+footer {
+  clear: both;
+  background-color: white;
+}
+
+#top-cats {
+  padding-left: 20px;
+}
+
+header h1 {
+  font-size: 4em;
+  padding-left: 30%;
+}
+
+a:visited{
+  color: rgb(47, 139, 186)
+}
+
+.headline {
+  color: rgb(105, 0, 98)
+}
