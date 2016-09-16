@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(220, 247, 241);
+  font-family: sans-serif;
+}
+
+/*begin styling for 2 nav bar lists*/
+nav {
+  float: right;
+}
+
+nav ul{
+  list-style: none;
+  text-align: right;
+}
+
+nav ul li{
+  display: inline;
+}
+
+.top-nav{
+  margin: 20px;
+}
+/*end of styling for nav bar thingies*/
+
+/*white footer*/
+footer {
+  clear: both;
+  background-color: white;
+}
+
+/*meowspace heading*/
+header h1 {
+  font-size: 4em;
+  padding-left: 15%;
+  margin-bottom: 5%;
+}
+
+/*---------------styling the blog post content--------------------------------------/*/
+
+.middle-column {
+  display: block;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.skinny-image {
+  width: 100%;
+}
+
+.image_gallery {
+  text-align: center;
+}
+
+.image_gallery img{
+  height: 100px;
+  display: inline;
+
+}
